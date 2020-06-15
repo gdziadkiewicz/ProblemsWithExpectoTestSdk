@@ -5,12 +5,15 @@
     <TargetFrameworks>net462;net472;netcoreapp3.1</TargetFrameworks>
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
-
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Sample.fs" />
     <Compile Include="Main.fs" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Expecto" Version="9.*" />
     <PackageReference Include="YoloDev.Expecto.TestSdk" Version="0.9.46" />

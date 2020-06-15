@@ -5,7 +5,10 @@
     <TargetFrameworks>net462;net472;netcoreapp3.1</TargetFrameworks>
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
-
+    <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Sample.fs" />
     <Compile Include="Main.fs" />
